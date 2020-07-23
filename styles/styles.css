@@ -1,0 +1,410 @@
+
+/********All Pages***********/
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navigation {
+    top: 0px;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+    color: #ebecf1;
+}
+
+.navbar-brand {
+    color: #ebecf1;
+
+}
+
+body {
+    background-color: #6a9c78;
+}
+
+footer {
+    margin: 40px;
+    height: 100px;
+    text-align: center;
+    color: #ebecf1;
+
+}
+
+
+footer a {
+    color: #ebecf1;
+
+}
+
+
+
+a:hover{
+    color: #AD9BAA;
+
+}
+
+.btn {
+    color: black;
+    background-color: #B5DFCA;
+    border: #B5DFCA ;
+    margin: 10px 20px;
+}
+
+.btn:hover {
+background-color: #AD9BAA;
+}
+
+
+
+/********Index***********/
+
+h4 {
+    margin: auto;
+text-align: left;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+.contentcontainer{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    background-color: #f9f8ed;
+    color: #1b1c25;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.landing {
+    height: 800px;
+    background-image: url(/Images/close-up-photography-of-leaves-797947.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.landing a:hover {
+    color: #AD9BAA;
+
+}
+
+.landing-container {
+height: auto;
+}
+
+.landing-content{
+    margin-top: 20%;
+}
+
+.landing-content a{
+    text-align: right;
+}
+.landing-contact a{
+    text-align: right;
+display: block;
+margin-right: 20px;
+color: #B5DFCA;
+font-weight: bold;
+font-size: 1.5rem;
+}
+
+.landing h1 {
+    padding: 20px 0 20px 0;
+    width: 70%;
+background-color: rgba( 98, 114, 100,.7);
+padding-left: 60px;
+color: #fff;
+}
+
+.landing-picture{
+text-align: right;
+vertical-align: bottom;
+padding-top: 50px ;
+}
+
+.pic{
+    margin-top: 90px;
+    width: 100%;
+}
+
+.pitch{
+    padding: 20px 20px 20px 0;
+    width: 90%;
+    background-color: rgba( 98, 114, 100,.7);
+    padding-left: 60px;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.learnmorelink{
+    text-align: right;
+    padding-left: 60%; ;
+}
+
+.scontent {
+    height:auto ;
+    text-align: center;
+}
+
+.testimonials{
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='B5DFCA' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='B5DFCA' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-inner {
+margin: auto;
+width: 60%;
+}
+
+.carousel-item{
+    text-align: left;
+    height: 120px;
+}
+
+.card-deck {
+    margin: 20px 10px 10px 10px;
+}
+
+
+
+.servicecards {
+    padding: 20px 20px 60px 20px ;
+}
+
+
+
+
+/**********Testimonoals****************/
+
+
+.testimonial {
+    padding: 5% 10%;
+    font-size: 1.1rem;
+}
+
+.mission-statement {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-top: 0;
+}
+
+/*************About Kimmi*************/
+
+.kimmi-headshot-2{
+    height: 250px;
+    width: 250px;
+margin: auto;}
+
+
+.picture-frame{
+padding: 50px 150px 0px 90px;
+
+}
+
+.about-header{
+    margin: 40px auto 20px auto;
+        padding-top: 30px;
+
+}
+
+.about-kimmi-blurb{
+padding: 10%;
+}
+
+.about-kimmi-blurb p {
+    vertical-align: middle;
+    display: inline;
+    font-size: 1.5rem;
+}
+
+.about-content {
+    font-size: 1.2rem;
+    padding: 30px 20%;
+}
+
+.about-buttons {
+    padding: 50px;
+    text-align: center;
+}
+
+/******************Services********/
+/*************Contact*************/
+.contact {
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+.form-control {
+    margin: 10px 20px;
+}
+
+.contact-button {
+    margin: 20px auto;
+}
+/***********Booking***************/
+.booking-list{
+    margin-bottom: 40px;
+}
+
+
+ /**********Phone Compatability**********************/
+
+@media screen and (max-width: 500px) {
+
+    
+    body {
+        background-color: #627264;
+        margin-top: 55px;
+    }
+    
+    footer {
+        margin: 40px;
+        height: 100px;
+        text-align: center;
+        color: #ebecf1;
+
+    }
+       
+    .contentcontainer{
+            width: 100%;
+            background-color: #ebecf1;
+            color: #7e819b;
+            border-radius: 0px 0px 30px 30px;
+    }
+
+    .landing {
+        height: auto;
+        background-position: center;
+    }
+    
+    .landing a {
+    text-align: right;
+    display: block;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    }
+
+    .landing-contact{
+        margin-top: 20px;
+        padding-top: 15px;
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .landing-content{
+        margin-top: 10%;
+    }
+
+
+    .landing h1 {
+        font-size: 1.8rem;
+        
+        padding: 20px 0 20px 0;
+        width: 80%;
+        background-color: rgba( 98, 114, 100,.7);
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    
+    .pitch{
+        font-size: .9rem;
+        padding: 20px 20px 20px 0;
+        width: 100%;
+        background-color: rgba( 98, 114, 100,.7);
+        padding-left: 20px;
+        margin-top: 2%;
+        color: #fff;
+
+    
+    }
+
+
+
+    .learnmorelink{
+        font-size: .8rem;
+        text-align: right;
+        padding-left: 40%; ;
+    }
+    
+    .scontent {
+        height:auto ;
+        text-align: center;
+    }
+
+    .scontent p {
+        height:auto ;
+        text-align: left;
+    }
+    
+    h4 {
+        margin: auto;
+    text-align: left;
+font-size: .8rem;    
+}
+
+    .testimonials{
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+    
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+    
+    .carousel-inner {
+    margin: auto;
+    width: 70%;
+    }
+    
+}
+
+.about-content {
+    font-size: 1.1rem;
+    padding: 30px 20%;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+.contentcontainer{
+    width: 85%;
+}
+    .landing{
+    height: auto;
+}
+
+.pic {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 1500px) {
+
+    .contentcontainer{
+        width: 100%;
+    }
+        .landing{
+        height: auto;
+    }
+    
+    .pic {
+        width: fit-content;
+    }
+    }
